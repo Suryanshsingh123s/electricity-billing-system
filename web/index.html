@@ -1,0 +1,80 @@
+
+<html>
+    <head>
+        <title>EMS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<link rel="stylesheet" href="newcss.css">-->
+        <style>
+            body{
+                background-image: url("ele.jpg");
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+
+            ul {
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: darkblue;
+            }
+
+            li {
+                float: right;
+                list-style-type: none;
+            }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 16px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover {
+                background-color: cyan;
+            }
+
+            .center{
+                position: relative;
+            }
+
+            .central{
+                transform: translate(30%, 50%);
+            }
+
+            .container{
+                width: 50%;
+                border: 1px solid black;
+                margin: auto;
+                padding: 20px;
+                font-size: 20px;
+                color: cyan;
+                background-color: grey;
+                transform: translate(0%, 90%);
+            }
+            h1{
+                text-align: center;
+                color: white;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li style='float:left;'><h1 style='padding:0px; margin: 0px; padding-left: 17px;padding-top: 3px'>logo</h1></li>
+                <li><a href="Register">Register</a></li>
+                <li><a href="Login">login</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </header>
+        <div class="center">
+            <div class='container' style='background-color: grey'>
+                <h1>Wellcome To Our Website</h1><br><!-- comment -->
+                <h4 style='text-align: center'>Wellcome to EBMS(Electricity Billing Management System)</h4>
+            </div>
+        </div>
+    </body>
+</html>

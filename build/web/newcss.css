@@ -1,0 +1,81 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 29-Jun-2023, 3:30:12 pm
+    Author     : Suryansh Singh
+*/
+body{
+    background-image: url("ele.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+            
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkblue;
+}
+
+li {
+    float: right;
+    list-style-type: none;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    margin-right: 27px;
+}
+
+li a:hover {
+    background-color: cyan;
+}
+            
+.center{
+    position: relative;
+}
+
+.central{
+    transform: translate(30%, 50%);
+}
+            
+.container{
+    width: 40%;
+    border: 1px solid black;
+    margin: auto;
+    padding: 20px;
+    font-size: 20px;
+    color: cyan;
+    background-color: grey;
+    transform: translate(0%, 50%);
+}
+
+h1{
+    color:white;
+    text-align: center;
+    padding: 0px;
+    margin: 8px;
+}
+            
+#myform table tr td{
+    padding: 7px;
+}
+            
+#myform table tr td input{
+    font-size: 17px;
+}
+            
+button{
+    font-size: 20px;
+}
+
+select{
+    font-size: 20px;
+}
